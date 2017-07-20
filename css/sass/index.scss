@@ -1,0 +1,91 @@
+.clearFix:after{
+  display:block;
+  content:"";
+  clear:both;
+}
+.header{
+  //width:1920px;
+  position:relative;height:110px;
+  .head-img{
+    position:absolute;left:390px;top:30px;
+  }
+}
+.content{
+  background:url(../../img/login-main-banner.png);
+  height:560px;position:relative;
+  //width:1920px;
+  .submit{
+    position:absolute;right:370px;top:90px;
+    padding:30px 40px;background:#fff;
+    font-size:20px;color:#333;font-family: ËÎÌå, arial;
+    h3{
+      font-size:20px;font-family:ºÚÌå;
+      text-align: center;
+    }
+    .start{
+      color:#fff;background:#fff;border:1px solid #fff;
+      //color:red;background:#FFF6D2;border:1px solid #FFE57D;
+      width:258px;text-align: center;font-size:12px;
+      margin:7px 0 10px 0;height:28px;line-height:28px;
+      //display:none;
+    }
+    form{
+      font-size:12px;
+      .name{
+        width:258px;border:1px solid #ccc;line-height: 0;
+        position:relative;border-radius:1px;
+        span{display:inline-block;padding:7px 5px 6px 5px;
+          background:#F3F4F4;line-height: 0;
+          border-right:1px solid #ccc;
+        }
+        input{position:absolute;left:37px;top:11px;}
+      }
+      .password{
+        width:258px;border:1px solid #96C6F9;line-height: 0;
+        position:relative;margin:20px 0 10px 0;border-radius:1px;
+        span{display:inline-block;padding:7px 8px 6px 8px;
+          background:#E9F3FD;line-height: 0;
+          border-right:1px solid #96C6F9;
+        }
+        input{position:absolute;left:37px;top:11px;}
+      }
+      .num{
+        color:#666666;margin-bottom:15px;
+        position:relative;padding:13px 0 0 0;
+        .hao{float:left;
+          input{
+            position:absolute;top:14px;
+          }
+          span{
+            display:inline-block;position:absolute;
+            left:18px;top:13px;
+          }
+        }
+        a{float:right;}
+      }
+      .sub-btn{
+        background:#417EE7;text-align: center;
+        display:block;height:36px;width:260px;
+        border-radius:2px;line-height:36px;
+        input{
+          color:#fff;width:260px;height:36px;
+          cursor:pointer;
+        }
+      }
+    }
+  }
+  .new{
+    font-size:12px;color:#666;margin-top:10px;
+    line-height:12px;display: block;float:right;
+  }
+}
+
+
+
+
+
+
+
+
+
+

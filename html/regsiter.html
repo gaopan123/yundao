@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/css/regsiter.css"/>
+    <link rel="stylesheet" href="../css/css/base.css"/>
+</head>
+<body>
+<div class="regsiter">
+    <div class="header">
+        <div class="head-img">
+            <img src="../img/login-main-logo.png" alt="头部logo"/>
+        </div>
+    </div>
+    <div class="importance">
+        <div class="content">
+        <h3>欢迎注册</h3>
+
+        <div class="sheet clearFix">
+            <ul class="left">
+                <li class="clearFix"><p class="dian else">*</p>
+
+                    <p class="text">账号名</p></li>
+                <li class="clearFix"><p class="dian">*</p>
+
+                    <p class="text">设置密码</p></li>
+                <li class="clearFix"><p class="dian">*</p>
+
+                    <p class="text">确认密码</p></li>
+                <li class="clearFix">公司名称</li>
+                <li class="clearFix"><p class="dian else">*</p>
+
+                    <p class="text">联系人</p></li>
+                <li class="clearFix"><p class="dian">*</p>
+
+                    <p class="text">所在区域</p></li>
+                <li class="clearFix"><p class="dian">*</p>
+
+                    <p class="text">验证手机</p></li>
+                <li class="clearFix"><p class="dian">*</p>
+
+                    <p class="text">短信验证</p></li>
+                <li class="clearFix"><p class="dian else">*</p>
+
+                    <p class="text">验证码</p></li>
+            </ul>
+            <form action="">
+                <ul>
+                    <li class="clearFix">
+                        <input type="text" placeholder="限8位，含数字及字母" id="account" class="ipt border-radius"/>
+
+                        <div class="control">
+                            <img src="../img/password-false.png" alt="" id="just1"/>
+                            <span id="verify1">账号已存在</span>
+                        </div>
+                    </li>
+                    <li class="clearFix">
+                        <input type="password" placeholder="6-16个数字或者字母" id="pwd" class="ipt border-radius"/>
+
+                        <div class="control">
+                            <img src="../img/password-false.png" alt="" id="just2"/>
+                            <span id="verify2">请输入6-16个数字或字母</span>
+                        </div>
+                    </li>
+                    <li class="clearFix">
+                        <input type="password" placeholder="" id="confirm" class="ipt border-radius"/>
+
+                        <div class="control">
+                            <img src="../img/password-false.png" alt="" id="just3"/>
+                            <span id="verify3">请输入6-16个数字或字母</span>
+                        </div>
+                    </li>
+                    <li class="clearFix">
+                        <input type="text" id="company" class="ipt border-radius"/>
+
+                        <div class="control">
+                            <img src="../img/password-true.png" alt="" id="just4"/>
+                            <span  id="verify4"></span>
+                        </div>
+                    </li>
+                    <li class="clearFix">
+                        <input type="text" id="linkman" class="ipt border-radius"/>
+
+                        <div class="control">
+                            <img src="../img/password-false.png" alt="" id="just5"/>
+                            <span id="verify5">请输入联系人</span>
+                        </div>
+                    </li>
+                    <li class="clearFix">
+                        <select name="" id="area" class="ipt border-radius area">
+                            <option value="">请选择区域</option>
+                            <option value="">北京</option>
+                        </select>
+
+                        <div class="control">
+                            <img src="../img/password-false.png" alt="" id="just6"/>
+                            <span id="verify6">请选择区域</span>
+                        </div>
+                    </li>
+                    <li class="clearFix">
+                        <input type="text" id="phone" class="ipt border-radius"/>
+
+                        <div class="control">
+                            <img src="../img/password-false.png" alt="" id="just7"/>
+                            <span id="verify7">号码错误或手机号码已存在</span>
+                        </div>
+                    </li>
+                    <li class="clearFix">
+                        <div class="note clearFix">
+                            <input type="text" id="note" class="verify-note border-radius"/>
+                            <input type="button" value="获取短信验证码" id="gain" class="gain border-radius"/>
+                        </div>
+                        <div class="control">
+                            <img src="../img/password-false.png" alt="" id="just8"/>
+                            <span id="verify8">验证码不正确，请重新获取</span>
+                        </div>
+                    </li>
+                    <li class="clearFix">
+                        <div class="code clearFix">
+                            <input type="text" placeholder="请输入验证码" id="code"
+                                   class="verify-code border-radius"/>
+
+                            <div class="yan clearFix">
+                                <img src="../img/yanzeng.png" alt="" class="yanzheng"/>
+
+                                <p class="another" id="another">换一张</p>
+                            </div>
+                        </div>
+                        <div class="control">
+                            <img src="../img/password-false.png" alt=""  id="just9"/>
+                            <span id="verify9">验证码不正确，请重新输入</span>
+                        </div>
+                    </li>
+                    <li class="clearFix">
+                        <a href="#" class="a-sign">
+                            <input type="button" id="sign" class="sign border-radius" value="同意协议并注册"/>
+                        </a>
+
+                        <div class="submit clearFix">
+                            <a href="#" class="network" id="network"><span>《</span><span
+                                    class="work">海云互通网络管理协议</span><span>》</span></a>
+                            <a href="../index.html" class="promptly"><< 立即登录</a>
+                        </div>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <div class="shopcmd">
+            <div class="content clearFix">
+                <ul class="clearFix">
+                    <li><a href="#">shopcmd</a></li>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">官网云商城</a></li>
+                    <li><a href="#">智慧门店</a></li>
+                    <li><a href="#">营销平台</a></li>
+                    <li><a href="#">媒体联盟</a></li>
+                    <li class="last-li"><a href="#">关于我们</a></li>
+                </ul>
+                <div class="phone">
+                    <div class="text clearFix">
+                        <img src="../img/phone.png" alt=""/>
+
+                        <p>4008-188-360</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            ©Copyright 2015 苏州海云网络科技有限公司版权所有 | 苏ICP备15038170号-3
+        </div>
+    </div>
+</div>
+<div class="xie" id="xie">
+    <div class="content">
+        <div class="xie-head clearFix">
+            <p>海运互通云电商服务协议</p>
+            <div id="guan">
+                <img src="../img/close.png" alt=""/>
+            </div>
+        </div>
+        <div class="xie-cont">
+            <p class="text1">某啥网用户注册协议</p>
+            本协议是您与京东网站（简称“本站”，网站：www.jd.com）所有者（以下简称为“京东”）之间就京东网站服务等相关事宜
+            所订立的契约，请您仔细阅读本注册协议，您点击“同意报哪个继续”按钮后，本协议即构成双方有约束力的法律文件。
+            <p class="text2">第1条本站服务条款的确认和接纳</p>
+            1.1本站的各项电子服务的所有权和运作全归京东所有。用户同意所有注册协议条款并完成注册程序，才能成为本站的正式用户。用户确认：本协议条款是处理双方权利遗物的契约，始终有效，法律另有强制性国定或双方另有特别约定，依其规定。
+            1.2本站的各项电子服务的所有权和运作全归京东所有。用户同意所有注册协议条款并完成注册程序，才能成为本站的正式用户。用户确认：本协议条款是处理双方权利遗物的契约，始终有效，法律另有强制性国定或双方另有特别约定，依其规定。
+            1.3本站的各项电子服务的所有权和运作全归京东所有。用户同意所有注册协议条款并完成注册程序，才能成为本站的正式用户。
+            <p class="text2">第1条本站服务条款的确认和接纳</p>
+            1.1本站的各项电子服务的所有权和运作全归京东所有。用户同意所有注册协议条款并完成注册程序，才能成为本站的正式用户。用户确认：本协议条款是处理双方权利遗物的契约，始终有效，法律另有强制性国定或双方另有特别约定，依其规定。
+            1.2本站的各项电子服务的所有权和运作全归京东所有。用户同意所有注册协议条款并完成注册程序，才能成为本站的正式用户。用户确认：本协议条款是处理双方权利遗物的契约，始终有效，法律另有强制性国定或双方另有特别约定，依其规定。
+            1.3本站的各项电子服务的所有权和运作全归京东所有。用户同意所有注册协议条款并完成注册程序，才能成为本站的正式用户。
+            <p class="text2">第1条本站服务条款的确认和接纳</p>
+            1.1本站的各项电子服务的所有权和运作全归京东所有。用户同意所有注册协议条款并完成注册程序，才能成为本站的正式用户。用户确认：本协议条款是处理双方权利遗物的契约，始终有效，法律另有强制性国定或双方另有特别约定，依其规定。
+            1.2本站的各项电子服务的所有权和运作全归京东所有。用户同意所有注册协议条款并完成注册程序，才能成为本站的正式用户。用户确认：本协议条款是处理双方权利遗物的契约，始终有效，法律另有强制性国定或双方另有特别约定，依其规定。
+            1.3本站的各项电子服务的所有权和运作全归京东所有。用户同意所有注册协议条款并完成注册程序，才能成为本站的正式用户。
+            <p class="text2">第1条本站服务条款的确认和接纳</p>
+            1.1本站的各项电子服务的所有权和运作全归京东所有。用户同意所有注册协议条款并完成注册程序，才能成为本站的正式用户。用户确认：本协议条款是处理双方权利遗物的契约，始终有效，法律另有强制性国定或双方另有特别约定，依其规定。
+            1.2本站的各项电子服务的所有权和运作全归京东所有。用户同意所有注册协议条款并完成注册程序，才能成为本站的正式用户。用户确认：本协议条款是处理双方权利遗物的契约，始终有效，法律另有强制性国定或双方另有特别约定，依其规定。
+            1.3本站的各项电子服务的所有权和运作全归京东所有。用户同意所有注册协议条款并完成注册程序，才能成为本站的正式用户。
+        </div>
+        <div class="xie-foot">
+            <input type="button" id="close" value="同意并继续"/>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+
+    var account = document.getElementById("account");  //账号
+    var   pwd   = document.getElementById("pwd");      //设置密码
+    var confirm = document.getElementById("confirm");  //确认密码
+    var company = document.getElementById("company");  //公司名称
+    var linkman = document.getElementById("linkman");  //联系人
+    var  area   = document.getElementById("area");     //所在区域
+    var  phone  = document.getElementById("phone");    //验证手机
+    var  note   = document.getElementById("company");  //短信验证
+    var  gain   = document.getElementById("gain");     //获取短信验证
+    var  code   = document.getElementById("code");     //验证码
+    var  sign   = document.getElementById("sign");     //注册按钮
+
+    //图标
+    var just1 = document.getElementById("just1");
+    var just2 = document.getElementById("just2");
+    var just3 = document.getElementById("just3");
+    var just4 = document.getElementById("just4");
+    var just5 = document.getElementById("just5");
+    var just6 = document.getElementById("just6");
+    var just7 = document.getElementById("just7");
+    var just8 = document.getElementById("just8");
+    var just9 = document.getElementById("just9");
+    //红色字
+    var verify1 = document.getElementById("verify1");
+    var verify2 = document.getElementById("verify2");
+    var verify3 = document.getElementById("verify3");
+    var verify4 = document.getElementById("verify4");
+    var verify5 = document.getElementById("verify5");
+    var verify6 = document.getElementById("verify6");
+    var verify7 = document.getElementById("verify7");
+    var verify8 = document.getElementById("verify8");
+    var verify9 = document.getElementById("verify9");
+
+    var guan = document.getElementById("guan");
+    var close = document.getElementById("close");
+    var xie = document.getElementById("xie");
+    var network = document.getElementById("network");
+
+    guan.onclick = function(){
+        xie.style.display="none";
+    };
+    close.onclick = function(){
+        xie.style.display="none";
+    };
+    network.onclick = function(){
+        xie.style.display="block";
+    }
+
+
+</script>
+
+</body>
+</html>

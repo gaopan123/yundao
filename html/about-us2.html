@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/css/about-us.css"/>
+		<script src="../js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/about-us.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header clearfix">
+			<div class="header-top">
+				<div class="header-top-img">
+					<img src="../img/logo-1.png"/>
+				</div>
+				<div class="header-top-ul">
+				<ul class="top-ul">
+					<li><a href="about-us1.html">关于人人店</a></li>
+					<li><a href="website-b2.html">商城系统</a></li>
+					<li><a href="marketing.html">营销平台</a></li>
+					<li><a href="ec-drp.html">媒体联盟</a></li>
+					<li id="btn"><a href="new-login.html">用户中心</a></li><!--&and;&or;-->
+				</ul>
+				<ul class="left-b">
+             		<li ><a href="#"><img src="../img/sanjiao.png.png"/></a></li>
+             		<li ><a href="website.html">官网商城管理</a></li>
+             		<li ><a href="website.html">品牌综合管理</a></li>
+             		<li ><a href="ec-drp.html">媒体管理</a></li>
+             		<li><a href="website-b2.html">第三方商城营销管理管理</a></li>
+             	</ul>
+			  </div>
+			</div>
+			
+			<div class="header-bottom">
+				<img src="../img/renren-banner.png"/>
+			</div>
+			
+		</div>
+		<!--主体-->
+		<div class="content clearfix">
+             <div class="content-left">
+             	<ul class="left-t">
+             		<li><a href="#">关于我们</a></li>
+             		<li><a href="#">联系我们</a></li>
+             		<li><a href="#">加入我们</a></li>
+             		<li><a href="#">新闻动态</a></li>
+             	</ul>
+             	
+             </div>			
+             <div class="content-right">
+             	<!--<div class="first">
+             		关于人人店
+             	</div>
+             	<div class="second">
+             		PAYMAX为您提供一站式集成化支付接入解决方案，通过PAYMAX得SDK，您可
+             		轻松连接任意阿斯顿发PAYMAX支持得支付渠道，并通过交易管理拼啊太监控，接任意管理已开通渠道得所有交易阿道夫阿斯弗PAYMAX
+             		为您提供一站式集成化支付接入方案，通过 阿飞PAYMAX得SDK，您可
+             		轻松连接任意阿道夫 PAYMAX支持得支付渠道，并通过交易管理拼啊太监控，接任意管理已开通渠道得所有交易PAYMAX
+             		为您提供一站式集成化支付接入方案，接任意管理已开通渠道得所有交易。
+             	</div>
+             	<div class="third">
+             		<img src="../img/banner-right.png.png"/>
+             	</div>
+             	<div class="four">
+             		<ul>
+             			<li>移动APP支付：</li>
+             			<li>您已经有自己得APP，您的用户点击付款按钮后，在对应得APP中完成支付，再跳回您的应用。</li>
+             			<li>-APPKE PAY：唤起手机支付控件（只适用于部分IPHONE手机），在手机中完成支付。</li>
+             			<li>-支付宝移动支付：用户已经安装了支付宝客户端，跳转到支付宝客户户点中完成支付，再返回您的应用。</li>
+             			<li>-微信移动APP：用户已经安装了温馨客户端，跳转到温馨中完成支付，再返回您的应用。</li>
+             			<li>-拉卡拉移动SDK支付：用户支付是无需跳转，在您的应用中完成支付</li>
+             		</ul>
+             	</div>
+             	<div class="five">
+             		<ul>
+             			<li><a href="#">注册 人人店 后想进行交易，是否需要开通支付渠道？</a></li>
+             			<li><a href="#">人人店 接入流程</a></li>
+             			<li><a href="#">申请支付渠道必需资质文件</a></li>
+             			<li><a href="#">各场景可用那些支付渠道？</a></li>
+             		</ul>
+             	</div>-->
+             </div>	
+             
+             <!--客服问题-->
+             <div class="kefu">
+             	<div class="btn1"><a href="#"><img src="../img/未标题-3.png.png"/></a></div>
+             	<div class="btn2"><a href="#"><img src="../img/未标题-1 (2).png"/></a></div>
+             </div>
+             <div class="kuang">
+                 <h1>您需要咨询啥子？</h1>
+                 <textarea name="" rows="8" cols="24"></textarea>
+                 <button class="button">提交</button>
+             </div>
+             
+		</div>
+		
+	</body>
+	<script type="text/javascript">
+		$.ajax({
+			type:"get",
+			url:"../json/about-us.json",
+			async:true,
+			success:(function(resText){
+				var obj=resText;
+				if(typeof(obj)=="string"){
+					obj=$.parseJSON(resText);
+				}
+				console.log(obj);
+				var html="";
+				for(var i of obj.data){
+					html+='<div class="first">'
+		             		+''+i.first2+''
+		             	+'</div>'
+		             	+'<div class="second">'
+		             		+''+i.second+''
+		             	+'</div>'
+		             	+'<div class="third">'
+		             		+'<img src="../img/'+i.third+'"/>'
+		             	+'</div>'
+		             	+'<div class="four">'
+		             		+'<ul>'
+		             			+'<li>'+i.four1+'</li>'
+		             			+'<li>'+i.four2+'</li>'
+		             			+'<li>'+i.four3+'</li>'
+		             			+'<li>'+i.four4+'</li>'
+		             			+'<li>'+i.four5+'</li>'
+		             			+'<li>'+i.four6+'</li>'
+		             		+'</ul>'
+		             	+'</div>'
+		             	+'<div class="five">'
+		             		+'<ul>'
+		             			+'<li><a href="#">'+i.five1+'</a></li>'
+		             			+'<li><a href="#">'+i.five2+'</a></li>'
+		             			+'<li><a href="#">'+i.five3+'</a></li>'
+		             			+'<li><a href="#">'+i.five4+'</a></li>'
+		             		+'</ul>'
+		             	+'</div>'
+				}
+				$(".content-right").html(html);
+				
+			})
+		});
+		
+		
+		
+		
+		
+	</script>
+</html>

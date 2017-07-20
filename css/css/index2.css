@@ -1,0 +1,113 @@
+@charset "UTF-8";
+.clearFix:after {
+  display: block;
+  content: "";
+  clear: both; }
+
+.header {
+  position: relative;
+  height: 110px; }
+  .header .head-img {
+    position: absolute;
+    left: 390px;
+    top: 30px; }
+
+.content {
+  background: url(../../img/login-main-banner.png);
+  height: 560px;
+  position: relative; }
+  .content .submit {
+    position: absolute;
+    right: 370px;
+    top: 90px;
+    padding: 30px 40px;
+    background: #fff;
+    font-size: 20px;
+    color: #333;
+    font-family: 宋体, arial; }
+    .content .submit h3 {
+      font-size: 20px;
+      font-family: 黑体;
+      text-align: center; }
+    .content .submit .start {
+      color: #fff;
+      background: #fff;
+      border: 1px solid #fff;
+      width: 258px;
+      text-align: center;
+      font-size: 12px;
+      margin: 7px 0 10px 0;
+      height: 28px;
+      line-height: 28px; }
+    .content .submit form {
+      font-size: 12px; }
+      .content .submit form .name {
+        width: 258px;
+        border: 1px solid #ccc;
+        line-height: 0;
+        position: relative;
+        border-radius: 1px; }
+        .content .submit form .name span {
+          display: inline-block;
+          padding: 7px 5px 6px 5px;
+          background: #F3F4F4;
+          line-height: 0;
+          border-right: 1px solid #ccc; }
+        .content .submit form .name input {
+          position: absolute;
+          left: 37px;
+          top: 11px; }
+      .content .submit form .password {
+        width: 258px;
+        border: 1px solid #96C6F9;
+        line-height: 0;
+        position: relative;
+        margin: 20px 0 10px 0;
+        border-radius: 1px; }
+        .content .submit form .password span {
+          display: inline-block;
+          padding: 7px 8px 6px 8px;
+          background: #E9F3FD;
+          line-height: 0;
+          border-right: 1px solid #96C6F9; }
+        .content .submit form .password input {
+          position: absolute;
+          left: 37px;
+          top: 11px; }
+      .content .submit form .num {
+        color: #666666;
+        margin-bottom: 15px;
+        position: relative;
+        padding: 13px 0 0 0; }
+        .content .submit form .num .hao {
+          float: left; }
+          .content .submit form .num .hao input {
+            position: absolute;
+            top: 14px; }
+          .content .submit form .num .hao span {
+            display: inline-block;
+            position: absolute;
+            left: 18px;
+            top: 13px; }
+        .content .submit form .num a {
+          float: right; }
+      .content .submit form .sub-btn {
+        background: #417EE7;
+        text-align: center;
+        display: block;
+        height: 36px;
+        width: 260px;
+        border-radius: 2px;
+        line-height: 36px; }
+        .content .submit form .sub-btn input {
+          color: #fff;
+          width: 260px;
+          height: 36px;
+          cursor: pointer; }
+  .content .new {
+    font-size: 12px;
+    color: #666;
+    margin-top: 10px;
+    line-height: 12px;
+    display: block;
+    float: right; }

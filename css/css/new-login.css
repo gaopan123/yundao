@@ -1,0 +1,375 @@
+.new-login-box .new-login-header .header-container {
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto; }
+  .new-login-box .new-login-header .header-container:after {
+    display: block;
+    clear: both;
+    content: ""; }
+  .new-login-box .new-login-header .header-container a {
+    float: left; }
+    .new-login-box .new-login-header .header-container a .logo {
+      width: 226px;
+      height: 60px;
+      padding-top: 20px; }
+      .new-login-box .new-login-header .header-container a .logo img {
+        width: 100%;
+        height: 100%; }
+  .new-login-box .new-login-header .header-container .menu {
+    text-align: right;
+    line-height: 20px;
+    position: relative;
+    background: #fff; }
+    .new-login-box .new-login-header .header-container .menu .user {
+      cursor: pointer; }
+    .new-login-box .new-login-header .header-container .menu .menuList {
+      z-index: 3;
+      position: absolute;
+      border: 1px solid #000;
+      top: 20px;
+      right: 0;
+      padding: 0 10px;
+      background: #fff;
+      text-align: left;
+      display: none; }
+      .new-login-box .new-login-header .header-container .menu .menuList li {
+        line-height: 28px; }
+        .new-login-box .new-login-header .header-container .menu .menuList li:hover a {
+          color: #529bf7; }
+  .new-login-box .new-login-header .header-container .nav {
+    float: right;
+    padding-top: 20px; }
+    .new-login-box .new-login-header .header-container .nav:after {
+      display: block;
+      clear: both;
+      content: ""; }
+    .new-login-box .new-login-header .header-container .nav > li {
+      line-height: 30px;
+      float: left;
+      padding-left: 40px;
+      position: relative;
+      z-index: 2; }
+      .new-login-box .new-login-header .header-container .nav > li a {
+        width: 100%;
+        height: 100%;
+        color: #333;
+        font-size: 14px; }
+      .new-login-box .new-login-header .header-container .nav > li:hover a {
+        color: #529bf7; }
+      .new-login-box .new-login-header .header-container .nav > li .subnav {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 40px;
+        width: 100px;
+        background: #fff; }
+        .new-login-box .new-login-header .header-container .nav > li .subnav a {
+          color: orange; }
+    .new-login-box .new-login-header .header-container .nav > li.active a {
+      color: #529bf7; }
+.new-login-box .new-login-content {
+  width: 100%;
+  margin: 0 auto; }
+  .new-login-box .new-login-content #banner {
+    width: 100%;
+    height: 620px;
+    position: relative;
+    position: relative;
+    overflow: hidden; }
+    .new-login-box .new-login-content #banner ul li {
+      width: 100%;
+      position: absolute;
+      left: 100%;
+      overflow: hidden; }
+      .new-login-box .new-login-content #banner ul li img {
+        height: 100%;
+        width: 100%; }
+    .new-login-box .new-login-content #banner .banner-font {
+      position: absolute;font-size:20px;
+      top: 60%;
+      left: 20%;
+      color: #fff;
+      line-height: 20px; }
+.new-login-box .new-login-content #banner .banner-font p{
+  margin:10px 0;
+}
+.new-login-box .new-login-content #banner .lianxizixun {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      z-index: 2; }
+    .new-login-box .new-login-content #banner ol {
+      position: absolute;
+      bottom: 10px;
+      left: 45%; }
+      .new-login-box .new-login-content #banner ol li {
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+        float: left;
+        margin-left: 10px;
+        border: 2px solid #fff;
+        cursor: pointer; }
+        .new-login-box .new-login-content #banner ol li.bgColor {
+          background: #fff; }
+  .new-login-box .new-login-content .new-login-myservice {
+    position: relative;
+    background: #fafafa; }
+    .new-login-box .new-login-content .new-login-myservice .lianxizixun {
+      position: absolute;
+      top: -52px;
+      right: 0; }
+    .new-login-box .new-login-content .new-login-myservice .content {
+      /*width: 1200px;*/
+      margin: 0 70px; }
+      .new-login-box .new-login-content .new-login-myservice .content .tit-fald {
+        margin: 0 36px;
+        height: 60px;
+        position: relative;
+        border-bottom: 1px solid #ccc;
+        /*margin-bottom: 50px;*/
+      }
+        .new-login-box .new-login-content .new-login-myservice .content .tit-fald h2 {
+          width: 168px;
+          height: 52px;
+          position: absolute;
+          left: 50%;
+          margin-left: -84px;
+          margin-top: 42px;
+          background: #FAFAFA;
+          text-align: center;
+          color: #333;
+          font-size: 24px; }
+          .new-login-box .new-login-content .new-login-myservice .content .tit-fald h2 p {
+            color: #666;
+            font-size: 14px;
+            font-weight: 400; }
+      .new-login-box .new-login-content .new-login-myservice .content .info {
+        margin-top:50px;
+        text-align: center; }
+        .new-login-box .new-login-content .new-login-myservice .content .info p {
+          color: #666;
+          font-size: 14px; }
+      .new-login-box .new-login-content .new-login-myservice .content .serviceinfo {
+        /*margin: 50px 70px 0;*/margin:0 auto;width:1200px;padding-top:50px;
+      }
+        .new-login-box .new-login-content .new-login-myservice .content .serviceinfo:after {
+          display: block;
+          clear: both;
+          content: ""; }
+        .new-login-box .new-login-content .new-login-myservice .content .serviceinfo li {
+          width: 320px;
+          background: #fff;
+          text-align: center;
+          float: left;
+          margin-right: 48px; margin-left:30px;}
+          .new-login-box .new-login-content .new-login-myservice .content .serviceinfo li .icon1 {
+            width: 248px;
+            height: 130px;
+            padding: 40px 0;
+            margin: 0 auto;
+          }
+          .new-login-box .new-login-content .new-login-myservice .content .serviceinfo li .name {
+            font-size: 24px;
+            padding-bottom: 20px; }
+          .new-login-box .new-login-content .new-login-myservice .content .serviceinfo li .desc {
+            text-align: left;
+            margin: 0 36px;
+            font-size: 10px;
+            line-height: 20px; }
+          .new-login-box .new-login-content .new-login-myservice .content .serviceinfo li .aa span {
+            display: inline-block;
+            width: 150px;
+            height: 38px;
+            background: #fff;
+            color: #ff9412;
+            font-size: 14px;
+            border-radius: 5px;
+            line-height: 38px;
+            margin: 30px 0;
+            border: 1px solid #ff9412; }
+          .new-login-box .new-login-content .new-login-myservice .content .serviceinfo li .aa:hover span {
+            background: #ff9412;
+            color: #fff; }
+          .new-login-box .new-login-content .new-login-myservice .content .serviceinfo li .aa:hover {
+            background: red;
+            color: #fff; }
+        .new-login-box .new-login-content .new-login-myservice .content .serviceinfo li:last-child {
+          margin-right: 0; }
+    .new-login-box .new-login-content .new-login-myservice .classCase {
+      width: 1200px;
+      padding: 0 74px;
+      background: #fff;
+      margin: 60px auto 0; }
+      .new-login-box .new-login-content .new-login-myservice .classCase .tit-fald h2 {
+        background: #fff; }
+      .new-login-box .new-login-content .new-login-myservice .classCase .carousel {
+        position: relative;
+        overflow: hidden; }
+        .new-login-box .new-login-content .new-login-myservice .classCase .carousel .bb {
+          position: relative;
+          height: 330px;
+          position: relative;
+          margin: 0 70px;
+          overflow: hidden; }
+          .new-login-box .new-login-content .new-login-myservice .classCase .carousel .bb .classisCase {
+            width: 2400px;
+            margin: 60px 0;
+            position: absolute;
+            left: 0;
+            top: 0; }
+            .new-login-box .new-login-content .new-login-myservice .classCase .carousel .bb .classisCase:after {
+              display: block;
+              clear: both;
+              content: ""; }
+            .new-login-box .new-login-content .new-login-myservice .classCase .carousel .bb .classisCase li {
+              width: 324px;
+              height: 210px;
+              position: relative;
+              float: left;
+              margin-right: 40px; }
+              .new-login-box .new-login-content .new-login-myservice .classCase .carousel .bb .classisCase li .img {
+                width: 100%;
+                height: 100%; }
+              .new-login-box .new-login-content .new-login-myservice .classCase .carousel .bb .classisCase li .search {
+                width: 72px;
+                height: 72px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-left: -36px;
+                margin-top: -36px;
+                display: none; }
+              .new-login-box .new-login-content .new-login-myservice .classCase .carousel .bb .classisCase li .title {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                line-height: 0px;
+                text-align: center;
+                color: #fff;
+                width: 100%;
+                background: #000;
+                opacity: 0; }
+            .new-login-box .new-login-content .new-login-myservice .classCase .carousel .bb .classisCase li:last-child {
+              margin-right: 0; }
+        .new-login-box .new-login-content .new-login-myservice .classCase .carousel .btn {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          background: #e6e6e6;
+          text-align: center;
+          font-size: 16px;
+          color: #fff; }
+          .new-login-box .new-login-content .new-login-myservice .classCase .carousel .btn span {
+            font-size: 50px;
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            line-height: 50px; }
+        .new-login-box .new-login-content .new-login-myservice .classCase .carousel .btnLeft {
+          position: absolute;
+          top: 50%;
+          left: 0;
+          margin-top: -30px;
+          cursor: point; }
+          .new-login-box .new-login-content .new-login-myservice .classCase .carousel .btnLeft:hover {
+            background: dodgerblue; }
+        .new-login-box .new-login-content .new-login-myservice .classCase .carousel .btnRight {
+          position: absolute;
+          right: 0;
+          top: 50%;
+          margin-top: -30px;
+          cursor: pointer; }
+          .new-login-box .new-login-content .new-login-myservice .classCase .carousel .btnRight:hover {
+            background: dodgerblue; }
+    .new-login-box .new-login-content .new-login-myservice .associatedMedia {
+      width: 1200px;
+      padding: 0 74px;
+      background: #fafafa;
+      margin: 60px auto 0; }
+      .new-login-box .new-login-content .new-login-myservice .associatedMedia .tit-fald h2 {
+        background: #fafafa; }
+      .new-login-box .new-login-content .new-login-myservice .associatedMedia .media {
+        width: 1200px;
+        padding-bottom: 200px; }
+        .new-login-box .new-login-content .new-login-myservice .associatedMedia .media:after {
+          display: block;
+          clear: both;
+          content: ""; }
+        .new-login-box .new-login-content .new-login-myservice .associatedMedia .media li {
+          float: left;
+          width: 232px;
+          height: 80px;
+          text-align: center;
+          border-bottom: 1px dashed #ccc;
+          border-right: 1px dashed #ccc; }
+          .new-login-box .new-login-content .new-login-myservice .associatedMedia .media li img {
+            width: 103px;
+            height: 40px;
+            margin-top: 20px; }
+        .new-login-box .new-login-content .new-login-myservice .associatedMedia .media li.borderR {
+          border-right: none; }
+        .new-login-box .new-login-content .new-login-myservice .associatedMedia .media li.borderB {
+          border-bottom: none; }
+.new-login-box .footer {
+  background: #212526;
+  font-family: "Microsoft Yahei"; }
+  .new-login-box .footer .shopcmd {
+    width: 1200px;
+    margin: 0 auto; }
+    .new-login-box .footer .shopcmd:after {
+      display: block;
+      clear: both;
+      content: ""; }
+    .new-login-box .footer .shopcmd .content {
+      margin: 0 auto;
+      width: 808px;
+      padding: 35px 124px 0 140px;
+      border-bottom: 1px solid #888888; }
+      .new-login-box .footer .shopcmd .content:after {
+        display: block;
+        clear: both;
+        content: ""; }
+      .new-login-box .footer .shopcmd .content ul {
+        float: left;
+        font-size: 14px;
+        padding: 20px 0 0 0; }
+        .new-login-box .footer .shopcmd .content ul li {
+          padding: 0 14px;
+          line-height: 14px;
+          border-right: 1px solid #9AA8C3;
+          float: left; }
+          .new-login-box .footer .shopcmd .content ul li a {
+            color: #ccc; }
+          .new-login-box .footer .shopcmd .content ul li:hover a {
+            color: blue;
+            border-bottom: 1px solid blue; }
+        .new-login-box .footer .shopcmd .content ul .last-li {
+          border: 0; }
+      .new-login-box .footer .shopcmd .content .phone {
+        float: right;
+        color: #888;
+        font-size: 19px;
+        line-height: 24px;
+        height: 50px; }
+        .new-login-box .footer .shopcmd .content .phone .text {
+          line-height: 50px; }
+          .new-login-box .footer .shopcmd .content .phone .text:after {
+            display: block;
+            clear: both;
+            content: ""; }
+          .new-login-box .footer .shopcmd .content .phone .text img {
+            float: left;
+            margin-top: 14px; }
+          .new-login-box .footer .shopcmd .content .phone .text p {
+            float: left;
+            margin-left: 8px; }
+  .new-login-box .footer .copy {
+    color: #888888;
+    padding: 18px 0;
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center; }
+
+/*# sourceMappingURL=new-login.css.map */

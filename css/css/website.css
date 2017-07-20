@@ -1,0 +1,402 @@
+.header{
+	width: 1200px;
+	height: 100px;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	position: relative;
+}
+.header:after{
+	display: block;
+	clear: both;
+	content:"";
+}
+.header>.logo{
+	float: left;
+}
+.header>.logo>img{
+	margin-top: 16px;
+}
+.header>.column{
+	float: right;
+}
+.column:after{
+	display: block;
+	clear: both;
+	content:"";
+}
+.column{
+	padding-top: 46px;
+}
+.column>li{
+	float: left;
+	margin-left: 36px;
+}
+.column>li>a{
+	font-size: 18px;
+	font-weight:500;
+}
+.color1{
+	color: #529bf7;
+}
+.tips{
+	position: absolute;
+	right: 0px;
+}
+
+.column-1{
+	position: absolute;
+	right: 80px;
+	top: 100px;
+	background-color: white;
+	width: 490px;
+	z-index: 999;
+}
+.column-1>li{
+	margin: 20px 36px;
+}
+.hide{
+	display: none;
+	
+}
+
+.hide:first-child{
+	font-size: 18px;
+	font-weight:500;
+	border-bottom: 1px solid gray;
+}
+.joinus{
+	color: #529bf7;
+	font-size: 15px;
+}
+.joinus2{
+	font-size: 15px;
+}
+.banner1>img{
+	width: 100%;
+}
+.banner{
+	position: relative;
+	/*width: 1200px;*/
+	margin: 0 auto;
+}
+.banner-2{
+	/*width: 1200px;*/
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+	color: white;
+}
+.banner-2>div{
+	position: absolute;
+	top: 70px;
+	left: 692px;
+}
+.banner-2 h1{
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 40px;
+}
+.banner-2 p{
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 18px;
+}
+.banner-3{
+	margin: 0 auto;
+	width: 240px;
+	height: 60px;
+}
+.banner-2 input{
+	width: 240px;
+	height: 60px;
+	/*border: 1px solid black;*/
+	text-align: center;
+	
+	color: white;
+	background: #5fdcf2;
+	font-size: 20px;
+	
+}
+
+/*供应商*/
+.content{
+	width: 1200px;
+	margin: 0 auto;
+}
+.layout:after{
+	display: block;
+	clear: both;
+	content:"";
+}
+.layout{
+	padding: 64px 120px 100px 120px;
+	display: flex;
+	/*border: 1px solid black;*/
+}
+.layout li{
+	float: left;
+	text-align: center;
+}
+.layout-1{
+	margin-right: 150px;
+}
+.layout p{
+	margin: 24px 0px 18px 0px;
+}
+
+/*架构*/
+.line:after{
+	display: block;
+	clear: both;
+	content:"";
+}
+.line{
+	margin: 0px 100px;
+}
+.line div{
+	border-bottom: 1px solid black;
+	width: 425px;
+	float: left;
+}
+.line>div:first-child{
+	margin-right: 150px;
+}
+.framework{
+	position: relative;
+}
+.single{
+	width: 1200px;
+	/*border: 1px solid black;*/
+	position: absolute;
+	top: -20px;
+	text-align: center;
+}
+.single span{
+	font-size: 20px;
+	line-height: 35px;
+	color: gray;
+}
+
+
+.oneimg{
+	margin-bottom: 90px;
+}
+.oneimg img{
+	width: 100%;
+	margin-top: 60px;
+}
+.blank{
+	height: 160px;
+}
+
+
+/*架构二*/
+.layoutt:after{
+	display: block;
+	clear: both;
+	content:"";
+}
+.layoutt{
+	padding: 0px 66px;
+	display: flex;
+	
+}
+.layoutt li{
+	float: left;
+	text-align: center;
+}
+
+.layoutt p{
+	margin: 24px 0px 18px 0px;
+}
+.layoutt-1{
+	margin-right: 90px;
+}
+
+
+/*轮播*/
+.carousel{
+	margin-top: 100px;
+	position: relative;
+}
+#left{
+	position: absolute;
+	top: 100px;
+	left: -40px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #e1e1e1;
+	color: white;
+}
+#left:hover{
+	background-color: #55a7ed;
+}
+#right:hover{
+	background-color: #55a7ed;
+}
+#right{
+	position: absolute;
+	top: 100px;
+	right: -40px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #e1e1e1;
+	color: white;
+}
+#box{
+	width: 1130px;
+	height: 230px;
+	/*border: 1px solid black;*/
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+#ul1{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#ul1 li{
+	width: 320px;
+	height: 210px;
+	float: left;
+	padding: 28px;
+}
+#ul1 li img{
+	width: 100%;
+	height: 100%;
+}
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+	top: 100px;
+	left: 160px;
+	display: none;
+}
+.absolute1{
+	position: absolute;
+	bottom: 35px;
+	text-align: center;
+	width: 320px;
+	height: 45px;
+	line-height: 45px;
+	color: white;
+	background-color: #333237;
+	opacity: 0.7;
+	font-size: 14px;
+}
+
+
+.footer{
+	background-color: #212425;
+	height: 170px;
+}
+.footer-1{
+	width: 1200px;
+	margin: 0 auto;
+}
+.guild:after{
+	display: block;
+	clear: both;
+	content:"";
+}
+.guild>li{
+	float: left;
+	padding: 0px 15px;
+	border-right: 1px solid lightgray;
+	height: 14px;
+}
+.guild>li a{
+	color: lightgray;
+}
+.foot-2{
+	padding: 40px 190px 0px 190px;
+}
+.foot-2:after{
+	display: block;
+	clear: both;
+	content:"";
+}
+.guild{
+	float: left;
+}
+.guild:last-child{
+	border: none;
+}
+.phone{
+	float: right;
+	color: lightgray;
+	font-size: 20px;
+}
+.phone:after{
+	display: block;
+	clear: both;
+	content:"";
+}
+.phone>p{
+	float: left;
+	margin-top: -10px;
+}
+.phone>p>img{
+	margin-top: -15px;
+}
+
+.lastt{
+	text-align: center;
+	margin-top: 20px;
+	color: lightgray;
+}
+
+.footer {
+  /*width: 1920px;*/
+  background: #212526;
+  font-family: "Microsoft Yahei"; }
+  .footer .shopcmd {
+    width: 1200px;
+    margin: 0 auto; }
+    .footer .shopcmd .content {
+      margin: 0 auto;
+      width: 808px;
+      padding: 35px 124px 0 140px;
+      border-bottom: 1px solid #888888; }
+      .footer .shopcmd .content ul {
+        float: left;
+        font-size: 14px;
+        padding: 20px 0 0 0; }
+        .footer .shopcmd .content ul li {
+          padding: 0 14px;
+          line-height: 14px;
+          border-right: 1px solid #9AA8C3;
+          float: left; }
+          .footer .shopcmd .content ul li a {
+            color: #ccc; }
+        .footer .shopcmd .content ul .last-li {
+          border: 0; }
+      .footer .shopcmd .content .phone {
+        float: right;
+        color: #888;
+        font-size: 19px;
+        line-height: 24px;
+        height: 50px; }
+        .footer .shopcmd .content .phone .text {
+          line-height: 50px; }
+          .footer .shopcmd .content .phone .text img {
+            float: left;
+            margin-top: 14px; }
+          .footer .shopcmd .content .phone .text p {
+            float: left;
+            margin-left: 8px; }
+  .footer .copy {
+    color: #888888;
+    padding: 18px 0;
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center; }
+.clearFix:after{
+	display: block;
+	clear: both;
+	content:"";
+}

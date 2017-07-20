@@ -1,0 +1,158 @@
+.index-site{
+	background-color:#6399d7;
+}
+.anima3 .title{
+	left:596px;
+	top:122px;
+	z-index:1;
+}
+.anima3 .description{
+	left:596px;
+	top:326px;
+}
+.anima3 .description p{
+	color:#fff;
+	font-size:22px;
+	line-height: 34px;
+}
+.anima3 .banner-bg{
+	height:524px;
+	width:1468px;
+	bottom:0;
+	left:-54px;
+}
+.products{
+	margin:50px 0 0;
+}
+.products li{
+	display:inline-block;
+	margin-left:40px;
+	vertical-align:top;
+	width:260px;
+	cursor:pointer;
+}
+.products li:first-child{
+	margin-left:0;
+}
+.products li h4{
+	color:#555;
+	font-size:18px;
+	padding:16px 0 10px;
+}
+.products li span{
+	color:#666;
+	font-size:14px;
+}
+.products .icons{
+	/*background:url(../img/oth-2.png) no-repeat;*/
+	height:260px;
+	width:260px;
+	margin-top: -270px;
+    /*transition:all 0.4s ease 0s;
+    -ms-transition:all 0.4s ease 0s;
+    -moz-transition:all 0.4s ease 0s;
+    -webkit-transition:all 0.4s ease 0s;*/
+}
+.products .icon-ysc{
+	background-position:-189px 0;
+}
+.products .icon-ppsc{
+	background-position:-189px -260px;
+}
+.products .icon-ddp{
+	background-position:-189px -520px;
+}
+.products .icons-o2o{
+	background-position:-189px -780px;
+}
+.products .icon-ysc:hover{
+	background-position:-449px 0;
+}
+.products .icon-ppsc:hover{
+	background-position:-449px -260px;
+}
+.products .icon-ddp:hover{
+	background-position:-449px -520px;
+}
+.products .icons-o2o:hover{
+	background-position:-449px -780px;
+}
+.aside-wrap .type.title-why{
+	margin-bottom:106px;
+}
+.title-why h2{
+	height:37px;
+	width:345px;
+	margin-left:-172px;
+}
+.choice-why{
+	margin-bottom:10px;
+}
+.choice-why-c{
+	height:338px;
+	overflow:hidden;
+    transition:all 0.4s ease 0s;
+    -ms-transition:all 0.4s ease 0s;
+    -moz-transition:all 0.4s ease 0s;
+    -webkit-transition:all 0.4s ease 0s;
+}
+.choice-why li{
+	border:1px solid #e7e8e9;
+	display:inline-block;
+	height:430px;
+	margin-right:2px;
+	padding:46px 10px;
+	vertical-align:top;
+	width:230px;
+	cursor:default;
+	background-color:#fcfcfc;
+}
+.choice-why li h4{
+	color:#333;
+	font-size:18px;
+	padding-bottom:10px;
+	text-align:center;
+}
+.choice-why li span{
+	color:#666;
+	font-size:14px;
+	padding:0 8px;
+	display:inline-block;
+}
+.choice-why li:hover .choice-why-c{
+	height:448px;
+	margin-top:-110px;
+	cursor:default;
+}
+.choice-why .icons{
+	background:url(../img/icon.png) no-repeat;
+	height:178px;
+	margin:0 0 108px 14px;
+}
+.choice-why .icon-qmtx{
+	width:178px;
+	background-position:0 0;
+}
+.choice-why .icon-jyxt{
+	width:186px;
+	background-position:0 -178px;
+}
+.choice-why .icon-zdyqd{
+	width:178px;
+	background-position:0 -356px;
+}
+.choice-why .icons-ywwy{
+	width:189px;
+	background-position:0 -534px;
+}
+.choice-why .icons-yxfw{
+	width:178px;
+	background-position:0 -712px;
+}
+.recruit{
+	background:url(../img/bg-logo.png) no-repeat;
+	height:646px;
+	width:1226px;
+	position:relative;
+	background-size: cover;
+}
